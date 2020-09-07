@@ -1,6 +1,3 @@
-# Ejercicio5-Promesas
-# Nicolás Munar - 201814383
-~~~
 function details(url) {
     return new Promise(function (resolve, reject) {
         let req = new XMLHttpRequest();
@@ -63,4 +60,3 @@ detailsProducts.then(result => {
 
     }).catch(error => console.log(error));
 }).catch(error => console.log(error)); 
-~~~
